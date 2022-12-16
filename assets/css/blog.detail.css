@@ -998,6 +998,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 
+.col-lg-12 .template-btn {
+    border-radius: 10px;
+}
+
 .footer-area .template-btn {
     margin-left: 10px;
     border     : none;
@@ -1212,7 +1216,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .blog_details {
-    padding-top: 20px
+    padding-top: 20px;
+    width      : 100%;
 }
 
 .blog_details h4 {
@@ -1251,7 +1256,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .blog_right_sidebar .widget_title {
     font-size    : 18px;
     line-height  : 25px;
-    background   : linear-gradient(to right, #244cfd, #15e4fd);
+    background   : linear-gradient(to right, #fd2b24, #15e4fd);
     text-align   : center;
     color        : #fff;
     padding      : 8px 0px;
